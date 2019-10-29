@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EmployeeReg</string>
+
+    <string name="base_salary_commission_employee"><![CDATA[BAse Salary & Commission Employee]]></string>
+    <string name="hourly_salary_commission_employee"><![CDATA[Hourly Salary & Commission Employee]]></string>
+    <string name="base_salaried_commission_employee"><![CDATA[Base Salaried & Commission Employee]]></string>
+    <string name="hourly_salaried_commission_employee"><![CDATA[Hourly Salaried & Commission Employee]]></string>
+</resources>

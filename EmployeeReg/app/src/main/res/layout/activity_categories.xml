@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Categories">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Registration Form"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#172af7"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Categories:"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#f7114f"
+
+        />
+
+    <Button
+        android:id="@+id/BSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="BAse Salary Employee"
+        android:onClick="BaseSE"/>
+
+    <Button
+        android:id="@+id/BSCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/base_salary_commission_employee"
+        android:onClick="BaseSCE"/>
+    <Button
+        android:id="@+id/HSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Hourly Salary Employee"
+        android:onClick="HourlySE"/>
+    <Button
+        android:id="@+id/HSCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/hourly_salary_commission_employee"
+        android:onClick="HourlySCE"/>
+
+
+</LinearLayout>
